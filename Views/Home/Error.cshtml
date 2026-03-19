@@ -1,0 +1,21 @@
+﻿@model ErrorViewModel
+
+@{
+    ViewData["Title"] = "Error";
+}
+
+<div class="text-center py-5">
+    <h1 class="display-4">Oops! Something went wrong.</h1>
+    <p class="lead">An unexpected error occurred.</p>
+    
+    @if (!string.IsNullOrEmpty(Model?.RequestId))
+    {
+        <p>
+            <strong>Request ID:</strong> <code>@Model.RequestId</code>
+        </p>
+    }
+
+    <div class="mt-4">
+        <a class="btn btn-primary" asp-controller="Home" asp-action="Index">Back to Home</a>
+    </div>
+</div>
