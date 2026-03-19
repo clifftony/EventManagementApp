@@ -1,7 +1,7 @@
 ﻿services:
   - type: web
     name: EventManagementApp
-    env: dotnet
+    runtime: dotnet
     plan: free
     buildCommand: dotnet publish -c Release -o out
     startCommand: cd out && dotnet EventManagementApp.dll
