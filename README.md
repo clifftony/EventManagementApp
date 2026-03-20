@@ -3,7 +3,7 @@
 A full-stack ASP.NET Core web application for managing events with user authentication.
 
 ## 🌐 Live Demo
-https://your-app-name-xxxx.onrender.com
+https://eventmanagementapp-g0f5.onrender.com
 
 ## Features
 - ✅ User Registration & Login
